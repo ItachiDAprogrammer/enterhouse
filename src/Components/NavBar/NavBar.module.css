@@ -1,0 +1,43 @@
+.logo, a{
+    align-self: center;
+    margin: 0 7px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #565673;
+}
+
+.nav_bar{
+    height: 7.7vh ;
+    width: 100%;
+    display: flex;
+    color: #565673;
+    align-items: center;
+}
+
+
+.nav_bar ul{
+    display: flex;
+  
+
+
+}
+.nav_bar  li{
+    list-style: none;
+    margin: 0px 20px;
+   
+}
+.spacer{
+    flex: 1;
+}
+@media (max-width: 785px){
+    .nav_bar li{
+        display: none;
+    }
+    .logo ,a{
+        font-size: 1.5rem;
+        text-decoration: none;
+        justify-self: center;
+        margin: 0px auto;
+    }
+}

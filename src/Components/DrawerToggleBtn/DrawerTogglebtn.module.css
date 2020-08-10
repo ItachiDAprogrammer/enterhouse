@@ -1,0 +1,20 @@
+.toggle_btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 10px;
+    
+
+}
+
+.toggle_line{
+    width: 28px;
+    height: 3.5px;
+    background:rgb(168, 11, 11);
+    margin:3px 0px;
+}
+@media (min-width: 785px){
+    .toggle_btn{
+        display: none;
+    }
+}
