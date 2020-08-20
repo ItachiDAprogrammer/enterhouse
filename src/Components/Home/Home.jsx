@@ -8,14 +8,12 @@ import Hero from '../Hero/Hero'
 const Home = () => {
     const cover = data.map((article,index) =>{
         return(
-            <Layouts>
+            
                 <Cover key={index}
                     img = {article.imgUrl}
                     title ={article.title}
                     discrb ={article.article}
                 />
-            </Layouts>
-            
         )
     })
     
@@ -24,7 +22,9 @@ const Home = () => {
             <Hero />
 
             <section>
+            <Layouts>
                 {cover}
+            </Layouts>
             </section>
         </div>
     )

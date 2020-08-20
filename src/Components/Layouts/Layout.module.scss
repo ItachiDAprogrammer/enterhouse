@@ -1,9 +1,10 @@
 .layout{
  background :#fff;
  width: 90%;
- margin: 0px auto;
+ margin: 1rem auto;
  text-align: center;
- padding: 1rem;
-margin-bottom: 29px;
+ padding: 0.3rem;
 border-radius: 5px;
+display: grid;
+grid-template-columns: repeat(1,1fr);
 } 

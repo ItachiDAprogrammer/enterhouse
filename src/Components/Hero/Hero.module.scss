@@ -1,26 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
 
 .container{
     position: relative;
+    width: 90%;
+    margin: 0px auto;
   text-align: center;
-  color:rgb(253, 198, 47);
+  color:rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.767);
+  .hero_header{
+      font-family: 'Libre Caslon Display', serif;
+      letter-spacing: 0.2rem;
+      text-transform: uppercase;;
 
-  .overlay{
-    font-family: 'Rowdies', cursive;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
+    span{
+      font-size: 6rem;
+    }
   }
 }
 .img{
-    max-width: 100%;
+    max-width: 90%;
     padding: 0px;
-    margin: 0px;
-    border-radius: 3px;
-    
+    margin: 10px 0px;
+    height: auto;
+    transform: rotateZ(98deg);
 }
 
 @media (max-width: 800px){
