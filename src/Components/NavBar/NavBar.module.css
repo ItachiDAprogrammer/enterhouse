@@ -1,6 +1,9 @@
+nav{
+    display: flex;
+}
 .logo, a{
     align-self: center;
-    margin: 0 7px;
+    margin:0px 25px;
     font-size: 1.3rem;
     font-weight: bold;
     text-decoration: none;
@@ -30,14 +33,16 @@
 .spacer{
     flex: 1;
 }
-@media (max-width: 785px){
+@media (max-width: 750px){
     .nav_bar li{
         display: none;
     }
     .logo ,a{
         font-size: 1.5rem;
         text-decoration: none;
-        justify-self: center;
-        margin: 0px auto;
+        
+    }
+    .spacer{
+        flex: none;
     }
 }

@@ -1,11 +1,15 @@
 import React from 'react'
 import Styles from './Layout.module.scss'
+import LayoutGrid from './LayoutGrid'
 
 const Layouts = ({children}) => {
     return (
-        <div className={Styles.layout}>
+        <LayoutGrid>
+            <div className={Styles.layout}>
             {children}
         </div>
+        </LayoutGrid>
+        
     )
 }
 

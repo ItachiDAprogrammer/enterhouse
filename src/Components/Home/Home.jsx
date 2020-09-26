@@ -1,21 +1,10 @@
 import React from 'react'
-import Cover from '../Cover/Cover'
-import data from '../assets/articles.json'
 import styles from './Home.module.scss'
 import Layouts from '../Layouts/Layouts'
 import Hero from '../Hero/Hero'
+import MainContent from '../Main content/MainContent'
 
 const Home = () => {
-    const cover = data.map((article,index) =>{
-        return(
-            
-                <Cover key={index}
-                    img = {article.imgUrl}
-                    title ={article.title}
-                    discrb ={article.article}
-                />
-        )
-    })
     
     return (
         <div className={styles.container}>
@@ -23,7 +12,7 @@ const Home = () => {
 
             <section>
             <Layouts>
-                {cover}
+                <MainContent img='https://i.imgur.com/w5YXJXn.jpg'/>
             </Layouts>
             </section>
         </div>
